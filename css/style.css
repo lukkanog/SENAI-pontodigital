@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
 }
+main{
+    padding-top:4em;
+}
 .container{
     width:100%;
 }
@@ -55,7 +58,7 @@ h1{
 
 
 .banner{
-    height:70vh;
+    height:60vh;
 
     background-image: url(../img/fundo_banner.png);
     background-repeat:no-repeat;
@@ -119,6 +122,7 @@ h1{
     align-items:center;
     justify-content:space-around;
     height:60vh;
+    padding-bottom:2em;
 }
 #brasil img{
     height:55vh;
