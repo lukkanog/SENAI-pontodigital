@@ -28,13 +28,16 @@ header{
 }
 .menu ul a{
     text-decoration:none;
-    color:#000;
+    color:#004;
     padding:1.5em;
 }
 .menu ul a:hover{
     background-color:#BF8319;
     color:#fff;
     text-shadow:1px 1px 50px #ccc;
+}
+#login{
+    color:#fff;
 }
 .logo{
     display:flex;
@@ -83,9 +86,6 @@ h1{
     text-shadow:1px 1px 30px #000;
 }
 
-.caracteristicas{
-    
-}
 #telas{
     display:flex;
     align-items:center;
@@ -134,6 +134,9 @@ h1{
     justify-content: space-around;
     margin:auto;
 }
+.funcionalidades h2{
+    display:none;
+}
 .coluna{
     display:flex;
     flex-flow:column;
@@ -150,9 +153,40 @@ h1{
     height:2em;
     margin-right:10px;   
 }
+.planos{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.planos h2{
+    font-size:2.5em;
+    color:orange;
+    padding:0.5em 0;
+}
+.planos p{
+    font-size:1.5em;
+    width:600px;
+    text-align: justify;    
+}
+.planos a{
+    text-decoration:none;
+    color:#fff;
+    padding:0.5em 1em;
+    font-size:1.8em;
+    background-color:#F2A620;
+    border:1px #f2a620;
+    border-radius:10px;
+}
+.planos a:hover{
+    margin-top:-10px;
+    background-color:#097bb2;
+}
+.planos .content{
+    padding:10vh 0;
+}
 
 footer{
-    background-color:#002E84;
+    background-color:#00477a;
     color:#fff;
 }
 footer .content{
