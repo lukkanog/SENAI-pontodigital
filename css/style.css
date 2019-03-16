@@ -57,12 +57,13 @@ h1{
     font-family:"Sui Generis";
     color:	#005BB5;
     font-weight:bolder;
-
 }
 
 
 .banner{
-    height:60vh;
+    height:94vh;
+    position:relative;
+    top:-1em;
 
     background-image: url(../img/fundo_banner.png);
     background-repeat:no-repeat;
@@ -75,8 +76,7 @@ h1{
 
 }
 .banner img{
-    height:50vh;    
-    margin-bottom:-4em;
+    height:70vh;    
 }
 .banner p{
     font-size:2.5em;
@@ -161,6 +161,8 @@ h1{
     height:2em;
     margin-right:10px;   
 }
+
+
 .planos{
     display:flex;
     align-items:center;
@@ -192,6 +194,7 @@ h1{
 .planos .content{
     padding:10vh 0;
 }
+
 
 footer{
     background-color:#00477a;
@@ -271,5 +274,24 @@ address div{
     .tique{
         font-size:1.5em;
         padding:0.5em 0;
+    }
+    .planos .content{
+        padding:15vh 0;
+    }
+    .planos h2{
+        font-size:2em;
+        padding:0;
+    }
+    .planos p{
+        font-size:1em;
+        width:70%;
+    }
+    .planos a{
+        font-size:1.5em;
+        text-align:center;
+    }
+    .planos a:hover{
+        margin:0;
+        text-shadow:1px 1.5px 20px #000,-1px -1.5px 20px #000;
     }
 }

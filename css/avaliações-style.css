@@ -1,5 +1,6 @@
 main{
     background-color:#097bb2;
+    padding-bottom:2em;
 }
 h2{
     color:#fff;
@@ -13,13 +14,13 @@ h2{
     justify-content:space-between;
     margin:2em 0;
     background-color:#fff;
-    border:10px #ffa500;
+    border:3px solid #ffa500;
     border-radius:30px;
 }
 .pessoa img{
     height:300px;
     width:300px;
-    border:10px #ffa500;
+    border:3px solid #ffa500;
     border-radius:30px 0 0 30px;
 }
 .texto{
@@ -31,4 +32,15 @@ h2{
 }
 .texto p{
     font-size:1.5em;
+}
+main a{
+    text-decoration:none;
+    color:#fff;
+    padding:0.5em 1em;
+    font-size:1.8em;
+    background-color:#F2A620;
+    border:1px #f2a620;
+    border-radius:10px;
+
+    margin-top:2em;
 }
