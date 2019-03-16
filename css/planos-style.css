@@ -18,7 +18,6 @@ h2{
     padding-bottom:4em;
 }
 .box{
-    border:10px orange;
     border-radius:15px;
     background-color:rgba(255, 255, 255, 0.959);
     padding:1em 0.2em;
@@ -47,19 +46,23 @@ h2{
 }
 .blue{
     color:#00347f;
-
+    border:3px solid #00347f;
 }
 .gratis{
     color:#00BF96;
+    border:3px solid #00BF96;
 }
 .purple{
     color:#7E0BBF;
+    border:3px solid #7E0BBF;
 }
 .orange{
     color:#f2a620;
+    border:3px solid #f2a620;
 }
 .black{
     color:#000;
+    border:3px solid #000;
 }
 .black p{
     margin:auto;
