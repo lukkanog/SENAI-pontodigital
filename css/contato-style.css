@@ -1,0 +1,39 @@
+main{
+    background-color:#097bb2;
+}
+h2{
+    font-size:3em;
+    text-align:center;
+    padding:1em;
+    color:#FFF;
+}
+.flex{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:100%;
+    padding:4em 0 10em 0;
+}
+.textos{
+    color:#fff;
+    text-align:center;
+    height:15em;
+    
+    display:flex;
+    flex-flow:column;
+    justify-content: space-between;
+}
+.textos h3{
+    font-size:2em;
+}
+.textos div{
+    display:flex;
+    align-items:center;
+}
+.textos div p{
+    font-size:1.5em;
+}
+.textos div img{
+    height:2.5em;
+    padding:0.5em;
+}
