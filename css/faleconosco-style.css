@@ -24,7 +24,7 @@ form input{
 ::placeholder{
     font-family: 'Comfortaa', cursive;
 }
-#submit{
+.submit{
     color:#fff;
     font-size:1.5em;
     background-color:#f2a500;
@@ -35,9 +35,13 @@ form input{
     margin:1em 0;
     align-self:center;
 }
-#submit:hover{
+.submit:hover{
     background-color:#c0ecf8;
     text-shadow: 1px 1px 100px #000,-1px -1px 10px #000
+}
+form [type="submit"]{
+    display:block;
+    text-align:center;
 }
 
 .campo{
@@ -48,6 +52,7 @@ form input{
 label{
     font-size:1.5em;
     margin-bottom:0.25em;
+    display:none;
 }
 #mensagem{
     height:80px;
