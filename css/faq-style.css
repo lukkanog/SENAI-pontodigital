@@ -1,0 +1,38 @@
+main{
+     background-color:#097bb2;
+     padding-bottom:3em;
+}
+h2{
+    color:#fff;
+    font-size:3em;
+    padding:1em 0;
+    text-align: center;
+}
+.textbox{
+    color:#fff;
+
+    border:3px solid #ffa500;
+    border-radius:20px;
+
+    padding:1.5em;
+    margin:1em auto;
+    width:70%;
+}
+.textbox button{
+    font-family: 'Comfortaa', cursive;
+    background-color:#097bb2;
+    color:#fff;
+    border:none;
+    text-align:left;
+}
+.textbox button:hover{
+    cursor:help;
+}
+.textbox h3{
+    margin-bottom:0.5em;
+    font-size:2em;
+    width:100%;
+}
+.textbox p{
+    display: none;
+}
