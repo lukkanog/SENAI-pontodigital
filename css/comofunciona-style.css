@@ -17,6 +17,16 @@ main .content{
 #video{
     height:550px;
     width:1000px;
-    border:10px orange;
+    border:3px solid #f2a500;
+    box-shadow: 1px 1px 30px #000;
     margin-top:2em;
+}
+@media screen and (max-width:1366px){
+    h2{
+        padding-top:0.5em;
+    }
+    #video{
+        width:800px;
+        height:400px;
+    }
 }

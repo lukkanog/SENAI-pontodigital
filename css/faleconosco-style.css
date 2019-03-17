@@ -28,7 +28,6 @@ form input{
     color:#fff;
     font-size:1.5em;
     background-color:#f2a500;
-    text-align:right;
     border:none;
     padding:1em;
     width:37%;
@@ -56,4 +55,17 @@ label{
 }
 #mensagem{
     height:80px;
+}
+
+
+@media screen and (max-width:1366px){
+    h2{
+        padding-top:0.5em;
+    }
+    form{
+        padding:2em 0 3em 0;
+    }
+    .submit{
+        width:50%;
+    }
 }

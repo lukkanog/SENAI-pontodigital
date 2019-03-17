@@ -14,7 +14,7 @@ h2{
     border:3px solid #f2a90f;
     border-radius:30px;
     margin-bottom:2em;
-    padding:2em 0
+    padding:2em 0;
 }
 .textbox h3{
     color:#fff;
@@ -53,5 +53,16 @@ h2{
 .equipe img{
     border-radius:10px;
     border:2px solid #f2a90f;
+}
 
+@media screen and (max-width:1366px){
+    .flex img{
+        height:350px;
+    }
+    .agora-vai p{
+        width:55%;
+    }
+    .textbox{
+        padding:2em;
+    }
 }

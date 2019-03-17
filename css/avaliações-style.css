@@ -39,6 +39,7 @@ h2{
 }
 .texto p{
     font-size:1.5em;
+    text-align:justify;
 }
 main a{
     text-decoration:none;
@@ -58,7 +59,22 @@ main a:hover{
 
 
 @media screen and (max-width:1366px){
+    h2{
+        padding:0.5em 0 1em 0;
+        font-size:2.8em;
+    }
     .pessoa{
-        width:100%;
+        width:95%;
+        margin:1em auto;
+    }
+    .pessoa img{
+        height:250px;
+        width:250px;
+    }
+    .texto h3{
+        font-size:1.8em;
+    }
+    .texto p{
+        font-size:1.2em;
     }
 }

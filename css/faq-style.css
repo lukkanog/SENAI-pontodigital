@@ -36,3 +36,10 @@ h2{
 .textbox p{
     display: none;
 }
+
+
+@media screen and (max-width:1366px){
+    h2{
+        padding:1em 0 0.5em 0;
+    }
+}
