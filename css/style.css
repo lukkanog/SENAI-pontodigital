@@ -58,7 +58,18 @@ h1{
     color:	#005BB5;
     font-weight:bolder;
 }
-
+button{
+    height:100%;
+    background:none;
+    border:none;
+    display:none;
+}
+button:hover{
+    cursor:pointer;
+}
+button img{
+    height:60%;
+}
 
 .banner{
     height:94vh;
@@ -97,7 +108,7 @@ h1{
     display:flex;
     align-items:center;
     justify-content:space-around;
-    height:60vh;
+    padding:2em 0;
 }
 #telas img{
     height:40vh;
@@ -125,8 +136,7 @@ h1{
     display:flex;
     align-items:center;
     justify-content:space-around;
-    height:60vh;
-    padding-bottom:2em;
+    padding:2em 0;
 }
 #brasil img{
     height:55vh;
@@ -218,7 +228,6 @@ footer h3{
     display:flex;
     align-items:center;
     padding:0.5em 0;
-    order:3;
 }
 footer img{
     height:50px;
@@ -294,4 +303,170 @@ address div{
         margin:0;
         text-shadow:1px 1.5px 20px #000,-1px -1.5px 20px #000;
     }
+}
+
+@media screen and (max-width:768px){
+    .content{
+        width:90%;
+    }
+    .topo button{
+        display: block;
+        position:absolute;
+        top:0;
+        right:3em;
+    }
+    .menu{
+        display:none;
+        background-color:#f2a620;
+        position:relative;
+        top:45vh;
+        right:-56px;
+
+        height:100vh;
+        box-shadow:1px 0px 50px #000;
+    }
+    .menu ul{
+        flex-flow:column;
+        width:300px;
+        height:100%;
+        text-align:center;
+    }
+    .menu ul a{
+        font-size:1.2em;
+    }
+    .banner img{
+        height:50%;
+    }
+    .banner{
+        justify-content: space-around;
+    }
+    .banner p{
+        width:45%;
+        font-size:1.5em;
+        text-align:left;
+    }
+    .titulo_e_texto{
+        width:40%;
+    }
+    .titulo_e_texto p{
+        font-size:1em;
+    }
+    .titulo_e_texto h2{
+        font-size:1.2em;
+    }
+    #telas img{
+        top:20px;
+    }
+    #brasil img{
+        height:45vh;
+    }
+    .funcionalidades{
+        justify-content: flex-start;
+        padding:auto;
+    }
+    .coluna{
+        justify-content: flex-start;
+        font-size:1.2em;
+    }
+    .tique{
+        padding:0.3em 0;
+    }
+    .planos h2{
+        font-size:1.5em;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .logo img{
+        height:4.5em;
+        margin-top:1em;
+    }
+    h1{
+        font-size:1em;
+    }
+    .topo button{
+        right:1em;
+    }
+    .menu{
+        right:120px;
+    }
+
+    .menu ul li a{
+        font-size:1em;
+    }
+    .banner{
+        flex-flow:column nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner p{
+        width:90%;
+        font-size:1.2em;
+        margin:0 auto;
+    }
+    .banner img{
+        height:40%;
+        padding-bottom:1em;
+    }
+    .titulo_e_texto{
+        width:95%;
+    }
+    .titulo_e_texto h2{
+        font-size:1em;
+    }
+    .titulo_e_texto p{
+        font-size:0.8em;
+    }
+    #telas{
+        flex-flow:column-reverse;
+    }
+    #telas img{
+        width:70%;
+        height:70%;
+        margin-bottom:2em;
+    }
+    #brasil{
+        flex-flow:column;
+    }
+    #brasil img{
+        width:60%;
+        height:60%;
+        margin-bottom:0.5em;
+    }
+    .coluna{
+        font-size:0.75em;
+    }
+    .planos{
+        flex-flow:column;
+    }
+    .planos h2{
+        font-size:1.4em;
+        padding-bottom:0.3em;
+    }
+    .planos p{
+        width:100%;
+        font-size:1em;
+    }
+    .planos div{
+        padding-bottom:1.5em;
+    }
+    .planos a{
+        font-size:1em;
+        padding:1.5em 1em;
+    }
+    footer h3{
+        font-size:1em;
+    }
+    footer img{
+        height:25px;
+    }
+    #telefone img{
+        height:20px;
+    }
+    footer address{
+        font-size:0.5em;
+    }
+
 }

@@ -89,7 +89,7 @@ h2{
     text-align:justify;
 }
 .pagamento a{
-    color:#c0ecf8;
+    color:#85dfff;
     text-decoration:none;
 }
 
@@ -114,5 +114,66 @@ h2{
     }
     .box .preço{
         font-size:2.5em;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    h2{
+        font-size:2em;
+    }
+    .box{
+        width:200px;
+        height:230px;
+    }
+    .box h3{
+        font-size:2.5em;
+    }
+    .box p{
+        font-size:1em;
+    }
+    .box .preço{
+        font-size:2em;
+    }
+    .pagamento h2{
+        font-size:1.5em;
+        padding:0.2em 0;
+    }
+    .pagamento p{
+        width:100%;
+        text-align:left;
+        font-size:1em;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    h2{
+        font-size:1.5em;
+    }
+    .flexbox{
+        width:100%;
+        flex-flow:column nowrap;
+    }
+    .box{
+        width:90%;
+        height:250px;
+    }
+    .box:hover{
+        margin:1em 2em;
+    }
+    .box p{
+        font-size:1.5em;
+    }
+    .pagamento{
+        padding-bottom:5em;
+    }
+    .pagamento h2{
+        font-size:1.4em;
+    }
+    .pagamento p{
+        text-align:justify;
+        width:100%;
+        font-size:0.9em;
     }
 }

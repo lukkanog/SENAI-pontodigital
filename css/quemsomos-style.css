@@ -66,3 +66,66 @@ h2{
         padding:2em;
     }
 }
+
+
+@media screen and (max-width:768px){
+    .flex{
+        flex-flow:column;
+    }
+    .flex img{
+        height:200px;
+    }
+    .agora-vai p{
+        width:100%;
+    }
+    .agora-vai h3{
+        text-align:center;
+    }
+    .textbox{
+        padding:2em;
+        width:85%;
+    }
+    .textbox p{
+        padding:0;
+    }
+    .textbox h3{
+        padding:0;
+        padding-bottom:0.5em;
+        
+    }
+    .textbox li{
+        left:1em;
+    }
+    .equipe img{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    h2{
+        font-size:1.5em;
+
+    }
+    .textbox{
+        width:80%;
+        padding:1em;
+    }
+    .textbox h3{
+        font-size:1.3em;
+    }
+    .textbox p{
+        font-size:1em;
+        text-align:left;
+    }
+    .textbox li{
+        text-align:left;
+    }
+    .flex img{
+        height:150px;
+        padding-bottom:1em;
+    }
+    .equipe img{
+        width:100%;
+    }
+}

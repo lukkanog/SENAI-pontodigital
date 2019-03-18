@@ -40,3 +40,13 @@ form [type="submit"]{
     background-color:#BF8200;
     border:2px solid #BF8200;
 }
+
+
+@media screen and (max-width:768px){
+    h2{
+        font-size:2em;
+    }
+    form{
+        width:80%;
+    }
+}
