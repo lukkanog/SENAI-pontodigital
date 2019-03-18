@@ -335,7 +335,8 @@ address div{
         font-size:1.2em;
     }
     .banner h2{
-        display:none;
+        display: none;
+
     }
     .banner img{
         height:40%;
