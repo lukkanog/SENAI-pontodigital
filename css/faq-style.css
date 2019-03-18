@@ -29,10 +29,11 @@ h2{
 .textbox button:hover{
     cursor:help;
 }
-.textbox h3{
+.textbox button{
     margin-bottom:0.5em;
     font-size:2em;
     width:100%;
+    font-weight:bolder;
 }
 .textbox p{
     display: none;

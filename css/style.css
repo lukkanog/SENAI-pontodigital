@@ -334,6 +334,9 @@ address div{
     .menu ul a{
         font-size:1.2em;
     }
+    .banner h2{
+        display:none;
+    }
     .banner img{
         height:40%;
     }
