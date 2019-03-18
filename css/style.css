@@ -54,7 +54,7 @@ header{
 }
 h1{
     padding:1em;
-    font-family:"Sui Generis";
+    font-family:"Sui Generis", sans-serif;
     color:	#005BB5;
     font-weight:bolder;
 }
@@ -335,7 +335,7 @@ address div{
         font-size:1.2em;
     }
     .banner img{
-        height:50%;
+        height:40%;
     }
     .banner{
         justify-content: space-around;
@@ -356,9 +356,10 @@ address div{
     }
     #telas img{
         top:20px;
+        height:250px;
     }
     #brasil img{
-        height:45vh;
+        height:300px;
     }
     .funcionalidades{
         justify-content: flex-start;
@@ -407,7 +408,7 @@ address div{
         margin:0 auto;
     }
     .banner img{
-        height:40%;
+        height:30%;
         padding-bottom:1em;
     }
     .titulo_e_texto{

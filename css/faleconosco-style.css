@@ -60,7 +60,10 @@ label{
 
 @media screen and (max-width:1366px){
     h2{
-        padding-top:0.5em;
+        padding-top:3em;
+    }
+    main{
+        height: calc(100vh - 4em);
     }
     form{
         padding:2em 0 3em 0;

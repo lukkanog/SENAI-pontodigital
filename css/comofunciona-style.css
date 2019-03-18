@@ -34,7 +34,7 @@ main .content{
 @media screen and (max-width:768px){
     h2{
         font-size:2em;
-        padding-top:2em;
+        padding-top:4em;
     }
     #video{
         width:80%;
