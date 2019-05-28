@@ -50,7 +50,8 @@ header{
 }
 .logo img{
     height:6em;
-    margin-top:2.2em;
+    position: relative;
+    top:1em;
 }
 h1{
     padding:1em;
@@ -76,10 +77,11 @@ button img{
     position:relative;
     top:-1em;
 
-    background-image: url(../img/fundo_banner.png);
+    background-image: url(../img/empresa.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+    width:100%;
 
     display:flex;
     align-items:center;
@@ -87,7 +89,7 @@ button img{
 
 }
 .banner img{
-    height:70vh;    
+    height:70vh;
 }
 .banner p{
     font-size:2.5em;
@@ -97,11 +99,13 @@ button img{
 }
 .banner a{
     text-decoration: none;
-    color:#005eb9;
+    color:#fe8f00;
+    text-shadow:3px 3px 30px #fff;
+
 }
 .banner a:hover{
     color:#fff;
-    text-shadow:1px 1px 30px #000;
+    text-shadow:3px 3px 30px #000;
 }
 
 #telas{
@@ -143,7 +147,7 @@ button img{
 }
 .funcionalidades{
     background-color:#097bb2;
-    padding:1em;
+    padding:1em 0;
 
     display:flex;
     flex-flow:row;
@@ -384,8 +388,8 @@ address div{
 
 @media screen and (max-width:360px){
     .logo img{
-        height:4.5em;
-        margin-top:1em;
+        height:4em;
+        top:0.5em;
     }
     h1{
         font-size:1em;
@@ -428,16 +432,16 @@ address div{
         flex-flow:column-reverse;
     }
     #telas img{
-        width:70%;
-        height:70%;
+        /* width:30%; */
+        height:30vh;
         margin-bottom:2em;
     }
     #brasil{
         flex-flow:column;
     }
     #brasil img{
-        width:60%;
-        height:60%;
+        /* width:60%; */
+        height:50vh;
         margin-bottom:0.5em;
     }
     .coluna{

@@ -8,6 +8,17 @@ h2{
     font-size:3em;
     padding-bottom: 0.5em;
 }
+main a{
+    text-align:center;
+    color:#fcc;
+    text-decoration:none;
+    padding-top:0.5em;
+    font-size:1.2em;
+}
+main a:hover{
+    color:#f2a500;
+}
+
 main .content{
     display:flex;
     flex-flow:column;
@@ -40,6 +51,7 @@ form [type="submit"]{
     background-color:#BF8200;
     border:2px solid #BF8200;
 }
+
 
 
 @media screen and (max-width:768px){

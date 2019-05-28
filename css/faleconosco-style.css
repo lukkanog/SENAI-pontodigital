@@ -1,5 +1,7 @@
 main{
     background-color:#097bb2;
+    height: calc(100vh - 4em);
+    padding:auto;
 }
 h2{
     color:#fff;
@@ -55,6 +57,7 @@ label{
 }
 #mensagem{
     height:80px;
+    
 }
 
 
